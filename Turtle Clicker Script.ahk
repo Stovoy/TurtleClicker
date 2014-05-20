@@ -30,7 +30,7 @@ ToolTip
 Loop {
 	ImageSearch, x, y, x1, y1, x2, y2, *15 *TransWhite Turtle.png
 	if (ErrorLevel = 0) {
-		MouseClick, Left, x + 20, y + 20 ; Found turtle, click
+		MouseClick, Left, x + 20, y + 20, 1, 0 ; Found turtle, click
 		Sleep 100
 	}
 	if not running
